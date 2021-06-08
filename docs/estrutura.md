@@ -14,7 +14,7 @@
 - Descrição da arquitetura/tecnologias utilizadas
 - Identificação das lacunas/melhorias a realizar
     > Sistema TO-BE
-- Requisitos funcionais: selecção das funcionalidades a desenvolver (completa)
+- Requisitos funcionais: seleção das funcionalidades a desenvolver (completa)
  (pode utilizar LNE, Casos de Uso)
 - Requisitos técnicos e restrições ao desenvolvimento da solução
 
@@ -34,3 +34,8 @@
 5. Conclusão final
     > Principais conclusões do estágio, tanto académicas como pessoais
     > Pontos a melhorar/completar
+
+
+    https://eg.uc.pt/bitstream/10316/83532/1/ricardo%20amaro%20-%20relatorio%20estagio%20-%20entrega%20final-EXPORT.pdf
+    https://repositorio.ul.pt/bitstream/10451/5791/1/ulfc099998_tm_S%C3%A9rgio_Santos.pdf
+    https://iconline.ipleiria.pt/bitstream/10400.8/1381/1/Andre_Filipe_Silva_Leal.pdf
