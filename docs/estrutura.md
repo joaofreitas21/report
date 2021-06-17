@@ -1,25 +1,25 @@
 1. Introdução
     Apresentar o objetivo genérico do estágio curricular.
-    > Enquadramento:
+    > Enquadramento: -----FEITO
       (NKA: missão/história, produtos/soluções, )
-    > Objetivos do estágio
+    > Objetivos do estágio -----FEITO
       (Atualização de aplicação de gestão de gestão de processos de informação  ...)
-    > Plano de trabalhos
+    > Plano de trabalhos -----FEITO
       (Tarefas a realizar, nome + breve descrição, e Gráfico de Gantt)
     > Estrutura do documento - elaborada apenas no final do relatório
       (Descreve o que será apresentado em cada capítulo numa frase/parágrafo para cada)
 
 2. Processo de reengenharia
     > Sistemas AS-IS
-- Descrição da arquitetura/tecnologias utilizadas
+- Descrição da arquitetura/tecnologias utilizadas -----FEITO
 - Identificação das lacunas/melhorias a realizar
     > Sistema TO-BE
 - Requisitos funcionais: seleção das funcionalidades a desenvolver (completa)
- (pode utilizar LNE, Casos de Uso)
+ (pode utilizar LNE, Casos de Uso) -----FEITO
 - Requisitos técnicos e restrições ao desenvolvimento da solução
 
 3. Desenvolvimento da aplicação
-    > Arquitetura técnica
+    > Arquitetura técnica -----FEITO
       (descrição das tecnologias/linguagens e componentes a usar/desenvolver, critérios/justificação, esquema gráfico)
     > Estruturar em secções: (1) BD/serviços (2) back-end (3) interface Web
     > incluir aspetos relevantes da codificação, e.g., segurança

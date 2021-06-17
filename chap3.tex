@@ -1,6 +1,82 @@
 
 \chapter{Desenvolvimento da aplicação}
+
+Este capítulo apresenta o trabalho desenvolvido numa segunda parte do estágio, o desenvolvimento de um módulo a implementar no produto NkaAcademies. Foi necessário analisar requisitos, tratar da modelação do produto e da sua implementação.
+
+\section{Análise e Especificações}
+
+Na identificação de requisitos são enunciadas todas as funcionalidades, de forma enumerada, que se pretendem implementar no \textit{software}.
+Os diferentes requisitos, funcionais e não funcionais, encontram-se classificados pela metodologia \textit{\acrshort{moscow}} que identifica os requisitos de elevada prioridade até aos menos prioritários.
+
+Cada tipo de requisito classificado (\textit{\textbf{M}ust}, \textit{\textbf{S}hould}, \textit{\textbf{C}ould}, e \textit{\textbf{W}ould}) representam diferentes significados face ao foco e importância que deverá ser levada em conta durante o processo de desenvolvimento.
+
+Assim sendo:
+
+\gls{moscoww}
+
+\begin{enumerate}
+  \item \textbf{\textit{Must}}: classificados como requisitos mais críticos ou indispensáveis para o produto, pretende-se o total foco sobre este tipo de requisitos durante o processo de desenvolvimento;
+  \item \textbf{\textit{Should}}: são tão importantes como os requisitos classificados como \textit{Must Have}, contudo não são considerados tão priorizados;
+  \item \textbf{\textit{Could}}: entende-se como requisitos desejáveis, mas também não são necessários;
+  \item \textbf{\textit{Would}}: estes são os requisitos menos críticos e com menor valor, podendo ser implementados ou não.
+\end{enumerate}
+
+\subsection{Requisitos Funcionais}
+
+Os requisitos funcionais dizem respeito a todas as funcionalidades ou pressupostos de como o sistema deve reagir a entradas específicas e como se deverá comportar. Estes tipos de requisitos podem-se entender como funcionalidades que o utilizador pode interagir de forma direta e mais visível.
+
+A Tabela~\ref{tab:1} - enuncia os requisitos funcionais estipulados para o sistema.
+
+\begin{longtable}{|l|l|l|l|}
+
+\hline
+
+\textbf{\#} & \textbf{Requisito} & \textbf{Descrição} & \textbf{Prioridade} \\ \hline
+
+RF01 & Pesquisar formação  & \vtop{\hbox{\strut O sistema tem que permitir ao utilizador} \hbox{\strut a procura pelo código da formação ou código} \hbox{\strut de curso}} & MUST \\ \hline
+RF02 & Escolher declaração & \vtop{\hbox{\strut O sistema tem que permitir ao utilizador} \hbox{\strut a escolha da declaração que pretende } \hbox{\strut imprimir / preencher.}} & MUST \\ \hline
+RF03 & Editar manualmente  & \vtop{\hbox{\strut O sistema deverá permitir ao utilizador a }\hbox{\strut edição manual dos campos a preencher}} & MUST \\ \hline
+RF04 & Criar campos  & \vtop{\hbox{\strut O sistema deve permitir a criação de }\hbox{\strut novos campos a serem adicionados às }\hbox{\strut declarações (\textit{template})}} & COULD \\ \hline
+RF05 & Editar automaticamente  & \vtop{\hbox{\strut O sistema deverá permitir ao utilizador}\hbox{\strut a edição automática dos campos a preencher,}\hbox{\strut conforme os resultados da procura}}  & MUST \\ \hline
+
+
+\caption{Requisitos funcionais}\\
+\label{tab:1}\\
+\end{longtable}
+
+% ------ Req nao Funcionais
+
+\subsection{Requisitos Não Funcionais}
+
+Requisitos não funcionais são as propriedades comportamentais relacionadas ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança, disponibilidade, manutenção e tecnologias envolvidas. Estes requisitos dizem respeito a como as funcionalidades serão entregues ao utilizador do software.
+
+A Tabela~\ref{tab:2} - encontram-se especificados os requisitos não funcionais do sistema.
+
+\begin{longtable}{|l|l|l|l|}
+
+\hline
+
+\textbf{\#} & \textbf{Descrição} & \textbf{Categoria} & \textbf{Prioridade} \\ \hline
+
+RNF01 & \vtop{\hbox{\strut As novas funções deverão ser implementadas de}\hbox{\strut forma a que sejam compatíveis com outras}\hbox{\strut funcionalidades já existentes}} & Compatibilidade & MUST \\ \hline
+RNF02 & \vtop{\hbox{\strut O módulo deverá ser implementado em JavaScript,}\hbox{\strut PHP com acesso à base de dados MySQL}} &  Operacional  & MUST \\ \hline
+RNF03 & \vtop{\hbox{\strut Apenas utilizadores autenticados e com permissão}\hbox{\strut devem ter acesso módulo desenvolvido}} & Segurança & MUST \\ \hline
+
+\caption{Requisitos não funcionais}\\
+\label{tab:2}\\
+\end{longtable}
+
+
 \section{Arquitetura técnica}
-Texto do sub-capitulo 1
-\section{Sub-capitulo 2}
-Texto do sub-capitulo 2
+
+\subsection{Diagrama de Atividades}
+
+Para descrever o processo de negócio foi utilizado diagramas de atividade,uma vez que permitem modelar o comportamento do sistema incluindo a sequência e as condições de execução de ações.
+
+A Figura~\ref{fig:act} demonstra o diagrama de atividades desenvolvido para o sistema.
+
+\begin{center}
+        \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/ActivityDiagram1.jpg}
+        \captionof{figure}{Diagrama de Atividades}
+        \label{fig:act}
+\end{center}

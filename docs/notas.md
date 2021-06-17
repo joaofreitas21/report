@@ -4,6 +4,7 @@ Algumas dúvidas:
   > Ex: mostrar funções deprecated e a implementação hard code delas em PHP;
     > Requisitos funcionais neste capitulo (?)?? LNE?? dúvidas nao percebi
      - Unico requisito nao funcional será manter a compatibilidade e operabilidade da aplicaçao nas novas tecnologias
+     - requisito: fazer migraçao de modo a que os requisitos iniciais do produto se mantenham. (??)
 
  - Ponto 3
     > Análise e especificação do sistema - Capitulo Email Prof!!
@@ -18,6 +19,8 @@ Algumas dúvidas:
     O utilizador deve poder criar campos para serem adicionados às declarações
 
     > Estruturar em secções - mostrar imagens ??
+    > Subentende-se que o cliente ja está logado - autenticado
+    > De forma a perceber mais graficamente como é feita a atividade de preencher dTP.
 
   - Ponto 4
     > Parecer do supervisor - Anexo ou um paragrafo citado por parte do orientador da empresa ???

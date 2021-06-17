@@ -6,14 +6,14 @@
 \section{Sistemas AS-IS}
 \subsection{Descrição da Arquitetura/tecnologias utilizadas}
 \subsubsection{Tecnologias e Plataformas}
-\par Neste ponto serão descritas as tecnologias e plataformas utilizadas ao longo deste trabalho, tais como XAMPP, Laragon, Visual Studio Code.
+\par Neste ponto serão descritas as tecnologias e plataformas utilizadas ao longo deste trabalho, tais como \acrshort{xampp}, Laragon, Visual Studio Code.
 \par Para a realização deste projeto foram utilizadas as plataformas e tecnologias requeridas pela empresa para facilitar a implementação e integração do projeto, e para tal foi necessário proceder à sua aprendizagem.
 \par De seguida vão ser descritas de forma sucinta as tecnologias e plataformas utilizadas ao longo do projeto.\newline
 
 
 \textbf{XAMPP}
 
-O XAMPP é formado por um pacote que inclui, base de dados MySQL, servidor web Apache e interpretadores para as linguagens de script. É essencialmente utilizado pelos desenvolvedores que pretendem criar um servidor web local no seu próprio computador, com a finalidade de realizar testes sem necessitar de acesso à rede. (Friends, 2018).\newline
+O \acrshort{xampp} é formado por um pacote que inclui, base de dados MySQL, servidor web Apache e interpretadores para as linguagens de script. É essencialmente utilizado pelos desenvolvedores que pretendem criar um servidor web local no seu próprio computador, com a finalidade de realizar testes sem necessitar de acesso à rede (Friends, 2018).\newline
 
 
 \textbf{Visual Studio Code}
@@ -22,12 +22,12 @@ O VsCode é um editor de código-fonte simplificado com suporte para operações
 
 \quad \textbf{Xdebug}
 
-\quad O Xdebug é uma extensão para PHP que fornece uma variedade de recursos para melhorar a experiência de desenvolvimento de PHP. (Derick Rethans,2020).\newline
+\quad O Xdebug é uma extensão para \acrshort{php} que fornece uma variedade de recursos para melhorar a experiência de desenvolvimento de \acrshort{php} (Derick Rethans,2020).\newline
 
 
 \textbf{Laragon}
 
-O Laragon é uma maneira rápida e fácil de criar um ambiente de desenvolvimento isolado no Windows. Inclui Mysql, PHP Memcached, Redis, Apache.(Keycdn,2015).\newline
+O Laragon é uma maneira rápida e fácil de criar um ambiente de desenvolvimento isolado no Windows. Inclui Mysql, PHP Memcached, Redis, Apache (Keycdn,2015).\newline
 
 % keycdn https://www.keycdn.com/blog/web-development-tools
 \subsection{Identificação das lacunas/melhorias a realizar}
@@ -55,30 +55,48 @@ Assim, não devem usar frases como ``na figura acima'', ou ``na figura abaixo'',
     \label{fig:1}
 \end{figure}
 
-O mesmo acontece com as tabelas, como se pode ver na Tabela~\ref{tab:1}.
+O mesmo acontece com as tabelas, como se pode ver na Tabela.
 
-\begin{table}[htb]
-    \centering
-    \begin{tabular}{ccccc}
-        \toprule
-        \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{Total} \\
-        \midrule
-          1 & 2 & 3 & 4 & 10  \\
-          2 & 3 & 4 & 5 & 14  \\
-          3 & 4 & 5 & 6 & 18  \\
-          4 & 5 & 6 & 7 & 22  \\
-         \bottomrule
-    \end{tabular}
-    \caption{Legenda da tabela.}
-    \label{tab:1}
-\end{table}
 
-Para a inclusão de código, usa-se algo semelhante. Veja-se a Listagem~\ref{lst:1}.
+Para a inclusão de código, usa-se algo semelhante. Veja-se a Listagem~\ref{lst:1}.\newpage
 
-\begin{lstlisting}[language={[sharp]c},
-                   caption={Método para contar o número de elementos numa lista iguais a uma determinada string.},
+\begin{lstlisting}[language={php},
+                   caption={Função para substituir mysql\_result.},
                    label=lst:1]
-   public int count(string x) {
-       return items.Select( y => y == x ).Count();
-   }
+      if (!function_exists('nka_mysqli_result')) {
+      	function nka_mysqli_result($res, $row, $field=0) {
+      	  $res->data_seek($row);
+      	  $datarow = $res->fetch_array();
+      	  return $datarow[$field];
+      	}
+      }
+\end{lstlisting}
+
+\begin{lstlisting}[language={php},
+                   caption={Função para substituir mysql\_field\_name.},
+                   label=lst:2]
+      if (!function_exists('mysqli_field_name')) {
+      	function nka_mysqli_result($res, $row, $field=0) {
+      	  $res->data_seek($row);
+      	  $datarow = $res->fetch_array();
+      	  return $datarow[$field];
+      	}
+      }
+\end{lstlisting}
+
+\begin{lstlisting}[language={php},
+                   caption={Improvement da função nka\_mysql\_result.},
+                   label=lst:3]
+      if (!function_exists('nka_mysqli_result')) {
+        function nka_mysqli_result($res, $row, $field=0) {
+      	  $res->data_seek($row);
+      	  $datarow = $res->fetch_array();
+      	  $retval = null;
+      	  $cond = ! empty($datarow);
+      	  if($cond){
+      		    $retval = $datarow[$field];
+      	  }
+      	  return $retval;
+      	}
+      }
 \end{lstlisting}

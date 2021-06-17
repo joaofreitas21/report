@@ -118,19 +118,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{moscow}{}%
+\ifglsentryexists{moscoww}{}%
 {%
-\gls@defglossaryentry{moscow}%
+\gls@defglossaryentry{moscoww}%
 {%
 name={MoSCoW},%
 sort={MoSCoW},%
-type={acronym},%
-first={Must Have, Should Have, Could Have, Won't Have\glsspace (MoSCoW)},%
-firstplural={Must Have, Should Have, Could Have, Won't Haves\glsspace (MoSCoWs)},%
+type={main},%
+first={MoSCoW},%
+firstplural={MoSCoWs},%
 text={MoSCoW},%
 plural={MoSCoWs},%
-description={Must Have, Should Have, Could Have, Won't Have},%
-descriptionplural={Must Have, Should Have, Could Have, Won't Have\acrpluralsuffix },%
+description={Método de priorização de funcionalidades ou requisitos},%
+descriptionplural={Método de priorização de funcionalidades ou requisitos},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -139,10 +139,10 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Must Have, Should Have, Could Have, Won't Have},%
-longplural={Must Have, Should Have, Could Have, Won't Haves},%
-short={MoSCoW},%
-shortplural={MoSCoWs},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
 counter={page},%
 parent={},%
 %
