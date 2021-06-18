@@ -1,25 +1,27 @@
 \BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 1
-\BOOKMARK [1][-]{section.1.1}{ Objetivos }{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Objetivos}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Contexto}{chapter.1}% 3
 \BOOKMARK [1][-]{section.1.3}{Plano de trabalhos}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.4}{Estrutura do documento}{chapter.1}% 5
 \BOOKMARK [0][-]{chapter.2}{Processo de Reengenharia}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Sistemas AS-IS}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{Descri\347\343o da Arquitetura/tecnologias utilizadas}{section.2.1}% 8
-\BOOKMARK [1][-]{section.2.2}{Sistemas TO-BE}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.1}{Identifica\347\343o das lacunas/melhorias a realizar}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.2}{Requisitos}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.3}{Altera\347\365es no desenvolvimento da solu\347\343o}{section.2.2}% 12
-\BOOKMARK [0][-]{chapter.3}{Desenvolvimento da aplica\347\343o}{}% 13
-\BOOKMARK [1][-]{section.3.1}{An\341lise e Especifica\347\365es}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.1.1}{Requisitos Funcionais}{section.3.1}% 15
-\BOOKMARK [2][-]{subsection.3.1.2}{Requisitos N\343o Funcionais}{section.3.1}% 16
-\BOOKMARK [1][-]{section.3.2}{Arquitetura t\351cnica}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{Diagrama de Atividades}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{Estrutura do c\363digo}{section.3.2}% 19
-\BOOKMARK [0][-]{chapter.4}{An\341lise dos Resultados}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Sub-capitulo 1}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{Sub-capitulo 2}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o Final}{}% 23
-\BOOKMARK [1][-]{section.5.1}{Sub-capitulo 1}{chapter.5}% 24
-\BOOKMARK [1][-]{section.5.2}{Sub-capitulo 2}{chapter.5}% 25
+\BOOKMARK [1][-]{section.2.1}{Descri\347\343o da Arquitetura/tecnologias utilizadas}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Tecnologias e Plataformas}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Identifica\347\343o das lacunas/melhorias a realizar}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Requisitos}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Altera\347\365es no desenvolvimento da solu\347\343o}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Desenvolvimento da aplica\347\343o}{}% 12
+\BOOKMARK [1][-]{section.3.1}{An\341lise e Especifica\347\365es}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.1.1}{Requisitos Funcionais}{section.3.1}% 14
+\BOOKMARK [2][-]{subsection.3.1.2}{Requisitos N\343o Funcionais}{section.3.1}% 15
+\BOOKMARK [1][-]{section.3.2}{Arquitetura t\351cnica}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Diagrama de Atividades}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Estrutura do c\363digo}{section.3.2}% 18
+\BOOKMARK [0][-]{chapter.4}{An\341lise dos Resultados}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Apresenta\347\343o da solu\347\343o desenvolvida}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.1.1}{Solu\347\343o desenvolvida - Parte 1}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.2}{Solu\347\343o desenvolvida - Parte 2}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Avalia\347\343o do n\355vel de maturidade e cumprimento dos objetivos}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.3}{Principais dificuldades encontradas}{chapter.4}% 24
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o Final}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Principais conclus\365es do est\341gio}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.2}{Pontos a melhorar/completar}{chapter.5}% 27

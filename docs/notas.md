@@ -34,7 +34,7 @@ Algumas dúvidas:
   - Ponto 5
     > Documentação um pouco vaga por ser tecnologia recente !!
     > reuniao equipa projetos
-> como se trata de um prototipo que ainda nao foi totalmente desenvolvido e nao vai ser para ja lançado para o produto 
+> como se trata de um prototipo que ainda nao foi totalmente desenvolvido e nao vai ser para ja lançado para o produto
     > AMANHA !!!
 
     > Manhã
@@ -42,3 +42,5 @@ Algumas dúvidas:
       > Enviar mail ao prof a ver se vai dar
       > Fazer introdução, estrutura do documento , analise resultados e conclusao.
       > Encontrar um esquema BD -> PHP (backend) queries -> JavaScript ajax -> front end -> jQuery e isso
+
+      > quanto a migraçao é complicado mostrar a soluçao desenvolvida.. O produto está a ser migrado aos poucos para evitar grandes conflitos com o bom funcionamento da solução online. ..

@@ -1,18 +1,16 @@
 \babel@toc {portuges}{}
 \contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1} Objetivos }{1}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Contexto}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Plano de trabalhos}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Estrutura do documento}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.3}Plano de trabalhos}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estrutura do documento}{3}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Processo de Reengenharia}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Sistemas AS-IS}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Descrição da Arquitetura/tecnologias utilizadas}{5}{subsection.2.1.1}%
-\contentsline {subsubsection}{Tecnologias e Plataformas}{5}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Sistemas TO-BE}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Identificação das lacunas/melhorias a realizar}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Requisitos}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Alterações no desenvolvimento da solução}{6}{subsection.2.2.3}%
-\contentsline {subsubsection}{\textit {mysql\_select\_db vs mysqli\_select\_db}}{7}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.1}Descrição da Arquitetura/tecnologias utilizadas}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Tecnologias e Plataformas}{5}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Identificação das lacunas/melhorias a realizar}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Requisitos}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Alterações no desenvolvimento da solução}{6}{section.2.4}%
+\contentsline {subsubsection}{\textit {mysql\_select\_db vs mysqli\_select\_db}}{7}{section.2.4}%
 \contentsline {subsubsection}{\textit {mysql\_result vs nka\_mysqli\_result}}{7}{lstnumber.2.2.2}%
 \contentsline {subsubsection}{\textit {mysql\_field\_name vs mysqli\_field\_name}}{8}{lstnumber.2.4.7}%
 \contentsline {subsubsection}{\textit {Improvement} da função \textit {nka\_mysqli\_result}}{9}{lstnumber.2.6.6}%
@@ -24,11 +22,14 @@
 \contentsline {subsection}{\numberline {3.2.1}Diagrama de Atividades}{13}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Estrutura do código}{14}{subsection.3.2.2}%
 \contentsline {subsubsection}{Base de Dados}{14}{figure.3.2}%
-\contentsline {subsubsection}{\textit {back-end}}{14}{figure.3.2}%
+\contentsline {subsubsection}{\textit {back-end}}{15}{figure.3.2}%
 \contentsline {subsubsection}{\textit {front-end}}{15}{lstnumber.3.1.18}%
 \contentsline {chapter}{\numberline {4}Análise dos Resultados}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sub-capitulo 1}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sub-capitulo 2}{17}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusão Final}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Sub-capitulo 1}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Sub-capitulo 2}{19}{section.5.2}%
+\contentsline {section}{\numberline {4.1}Apresentação da solução desenvolvida}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Solução desenvolvida - Parte 1}{17}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Solução desenvolvida - Parte 2}{17}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Avaliação do nível de maturidade e cumprimento dos objetivos}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Principais dificuldades encontradas}{21}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusão Final}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Principais conclusões do estágio}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Pontos a melhorar/completar}{23}{section.5.2}%
