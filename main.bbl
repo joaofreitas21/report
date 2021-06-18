@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -31,5 +31,16 @@ NKA. 2021.
 Rethans, Derick. 2020.
 \newblock \emph{Xdebug - debugger and profiler tool for php}.
 \newblock \urlprefix\url{https://xdebug.org/}.
+
+\bibitem[{SummernoteTeam(2020)}]{summernote}
+SummernoteTeam. 2020.
+\newblock \emph{Summernote}.
+\newblock \urlprefix\url{https://summernote.org/}.
+
+\bibitem[{TutorialsTeacher(2020)}]{jquery}
+TutorialsTeacher. 2020.
+\newblock \emph{jquery ajax introduction}.
+\newblock
+  \urlprefix\url{https://www.tutorialsteacher.com/jquery/jquery-ajax-introduction}.
 
 \end{thebibliography}

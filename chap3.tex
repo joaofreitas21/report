@@ -72,7 +72,7 @@ As tecnologias e linguagens utilizadas para o desenvolvimento deste módulo a ad
 
 \subsection{Diagrama de Atividades}
 
-Para descrever o processo de negócio foi utilizado o diagrama de atividade,uma vez que permite modelar o comportamento do sistema incluindo a sequência e as condições de execução de ações.
+Para descrever o processo de negócio foi utilizado o diagrama de atividade, uma vez que permite modelar o comportamento do sistema incluindo a sequência e as condições de execução de ações.
 
 A Figura~\ref{fig:act} demonstra o diagrama de atividades desenvolvido para o sistema.
 
@@ -85,3 +85,96 @@ A Figura~\ref{fig:act} demonstra o diagrama de atividades desenvolvido para o si
 Recorrendo à visualização do diagrama da Figura~\ref{fig:act}, é possível perceber os diferentes passos que correspondem à atividade geral do desenvolvimento desta fase do projeto, o preenchimento de documentos de apoio aos processos de gestão de formação. As atividades foram então: filtrar a procura a um resultado, escolher um \textit{template} / declaração predefinido, proceder ao seu preenchimento manual/automático e posteriormente à sua impressão caso seja pretendido.
 
 No desenho deste diagrama está subentendido que o cliente está devidamente autenticado e verificadas as suas permissões no acesso a este tipo de ferramenta dentro da aplicação.
+
+\subsection{Estrutura do código}
+% colocar imagem a apresentar a estrutura do código.
+Neste sub-capítulo será apresentada a estrutura do código desenvolvido, bem como alguns excertos de código para exemplificar as diferentes camadas existentes no projeto: base de dados, \textit{back-end} e \textit{front-end}.
+
+A Figura~\ref{fig:estrutura} apresenta um esquema gráfico, de forma a que se perceba melhor esta estrutura e as relações entre camadas.
+
+\begin{center}
+        \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/estrutura.png}
+        \captionof{figure}{Estrutura do código}
+        \label{fig:estrutura}
+\end{center}
+
+\subsubsection{Base de Dados}
+
+%A base de dados utilizada para o desenvolvimento deste projeto
+Quanto à base de dados utilizada para o desenvolvimento do projeto, não foi feito qualquer tipo de modelação uma vez que foi reaproveitada a base de dados já existente do produto NkaAcademies tendo sido apenas necessário acrescentar alguns dados em tabelas(\textit{templates}) já existentes a fim de testes e futura implementação.
+
+% nao foi feita a modelaçao ao nivel da bd .. apenas foram acrescentadas linhas em algumas colunas (templates) para testes e futura implementação.
+
+\subsubsection{\textit{back-end}}
+
+A parte do \textit{back-end} da aplicação foi desenvolvida em \acrshort{php}. O principal objetivo do trabalho realizado no \textit{back-end} diz respeito a interações com a base de dados, ou seja, tudo que envolva \textit{queries\acrshort{sql}} e ligações a bases de dados são definidas neste sector.
+
+Para uma melhor compreensão, será apresentada na Listagem~\ref{lst:99} um exemplo de uma interação com a base de dados onde basicamente é retornado o conteúdo do \textit{template} selecionado pelo utilizador (\textit{\$\_POST["diploma"]}). Caso se verifique que o \textit{iduser} / cliente existe e o template selecionado está definido na base de dados, é devolvido o seu conteúdo para a interface web.
+
+
+\begin{lstlisting}[language={php},
+                   caption={Exemplo de request à base de dados},
+                   label=lst:99]
+case 2073:
+
+$result = mysqli_query($con,"SELECT * from xxx.templates
+where diploma='".$_POST["diploma"]."'and iduser='$varemp'");
+
+if (mysqli_num_rows($result)!=0)
+{
+echo str_replace("table table-bordered",
+"",utf8_encode(nka_mysqli_result($result,0,"body")));
+}
+else
+{
+	echo "Sem Template Definido";
+}
+
+mysqli_close($con);
+
+break;
+\end{lstlisting}
+%-- apresentar como são feitas as interações com a base de dados
+\subsubsection{\textit{front-end}}
+
+A parte do \textit{front-end} foi desenvolvida em \acrshort{html}, recorrendo a \textit{modals} do \gls{bootstrap} para implementar a interface web e JavaScript que contém as funções que são o elo de ligação entre a interface web e o \textit{back-end}, que permite atualizar e tornar dinâmica a parte gráfica/visual do sistema.
+
+A Listagem~\ref{lst:98} demonstra a implementação de uma função JavaScript que complementa a ação realizada ao \textit{back-end} na listagem~\ref{lst:99}.
+
+De salientar ainda, a importância do uso de \textit{jQuery.ajax()} que permite utilizar JavaScript para enviar \textit{asynchronous http request} e obter resposta em vários formatos, e também para atualizar partes de uma página web (que use JavaScript) sem ter que recarregar a página web completa \citep{jquery}.
+
+Assim sendo, o \textit{jquery} neste caso é responsável por passar o parâmetro \textbf{diploma} para o \textit{back-end} de forma a ser processada a query\acrshort{sql} correspondente à declaração que o cliente selecionou.
+
+
+
+\begin{lstlisting}[language={php},
+                   caption={Função JavaScript utilizando jQuery.ajax()},
+                   label=lst:98]
+function carregatexto(){
+    var resultado = $['ajax']({
+    type: 'POST',
+    url: 'phpScripts/dbload.php',
+    data: 'kind=2073&diploma='
+        +document.getElementById("template").value,
+    async: false })['responseText'];
+
+	$(".summernote").summernote("code", resultado);
+
+	initcampos();
+}
+\end{lstlisting}
+
+
+Na Figura~\ref{fig:web} está representada a interface web resultante das listagens de código descritas acima nos pontos \ref{lst:99} e \ref{lst:98}.
+
+De salientar o uso do \textit{summernote} que é uma biblioteca do JavaScript que ajuda na criação de um editor \acrshort{wysiwyg} online \citep{summernote}.
+
+
+\begin{center}
+        \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/frontend.png}
+        \captionof{figure}{Interface Web - template teste}
+        \label{fig:web}
+\end{center}
+
+% -- apresentar listagem de codigo de como é feito o request ao backend jquery.ajax()
+% -- funçoes JS que depois sao chamadas e sao responsaveis por atualizar e tornar responsive a parte da interface web

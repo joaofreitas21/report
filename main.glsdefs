@@ -118,6 +118,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{html}{}%
+{%
+\gls@defglossaryentry{html}%
+{%
+name={HTML},%
+sort={HTML},%
+type={acronym},%
+first={HyperText Markup Language\glsspace (HTML)},%
+firstplural={HyperText Markup Languages\glsspace (HTMLs)},%
+text={HTML},%
+plural={HTMLs},%
+description={HyperText Markup Language},%
+descriptionplural={HyperText Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Markup Language},%
+longplural={HyperText Markup Languages},%
+short={HTML},%
+shortplural={HTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wysiwyg}{}%
+{%
+\gls@defglossaryentry{wysiwyg}%
+{%
+name={WYSIWYG},%
+sort={WYSIWYG},%
+type={acronym},%
+first={\protect \textit {What You See Is What You Get}\glsspace (WYSIWYG)},%
+firstplural={\protect \textit {What You See Is What You Get}s\glsspace (WYSIWYGs)},%
+text={WYSIWYG},%
+plural={WYSIWYGs},%
+description={\textit {What You See Is What You Get}},%
+descriptionplural={\textit {What You See Is What You Get}\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit {What You See Is What You Get}},%
+longplural={\protect \textit {What You See Is What You Get}s},%
+short={WYSIWYG},%
+shortplural={WYSIWYGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{moscoww}{}%
 {%
 \gls@defglossaryentry{moscoww}%
