@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -6,5 +6,30 @@
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem[{Friends(2018)}]{xampp}
+Friends, A. 2018.
+\newblock \emph{About the xampp project}.
+\newblock \urlprefix\url{https://www.apachefriends.org/pt_br/about.html}.
+
+\bibitem[{Keycdn(2015)}]{laragon}
+Keycdn. 2015.
+\newblock \emph{100+ awesome web development tools and resources}.
+\newblock \urlprefix\url{https://www.keycdn.com/blog/web-development-tools}.
+
+\bibitem[{Microsoft(2021)}]{vscode}
+Microsoft. 2021.
+\newblock \emph{Vscode faq}.
+\newblock \urlprefix\url{https://code.visualstudio.com/docs/supporting/FAQ}.
+
+\bibitem[{NKA(2021)}]{nka}
+NKA. 2021.
+\newblock \emph{Quem somos}.
+\newblock \urlprefix\url{https://nka.pt/pt-pt/content/quem-somos}.
+
+\bibitem[{Rethans(2020)}]{xdebug}
+Rethans, Derick. 2020.
+\newblock \emph{Xdebug - debugger and profiler tool for php}.
+\newblock \urlprefix\url{https://xdebug.org/}.
 
 \end{thebibliography}

@@ -28,6 +28,7 @@
 \@istfilename{main.ist}
 \@glsorder{word}
 \babel@aux{portuges}{}
+\citation{nka}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -37,31 +38,44 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Diagrama de Gantt\relax }}{2}{figure.1.1}\protected@file@percent }
 \newlabel{fig:gantt}{{1.1}{2}{Diagrama de Gantt\relax }{figure.1.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.4}Estrutura do documento}{2}{section.1.4}\protected@file@percent }
+\citation{xampp}
+\citation{vscode}
+\citation{xdebug}
+\citation{laragon}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Processo de Reengenharia}{5}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Sistemas AS-IS}{5}{section.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Descrição da Arquitetura/tecnologias utilizadas}{5}{subsection.2.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Tecnologias e Plataformas}{5}{subsection.2.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Identificação das lacunas/melhorias a realizar}{6}{subsection.2.1.2}\protected@file@percent }
+\newlabel{tecnologias}{{2.1.1}{5}{Tecnologias e Plataformas}{subsection.2.1.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Sistemas TO-BE}{6}{section.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Requisitos Funcionais}{6}{subsection.2.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Requisitos técnicos e restrições ao desenvolvimento}{6}{subsection.2.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Figuras}{6}{section.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Esta é a legenda da figura\relax }}{6}{figure.caption.9}\protected@file@percent }
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:1}{{2.1}{6}{Esta é a legenda da figura\relax }{figure.caption.9}{}}
-\newlabel{lst:1}{{2.1}{7}{Função para substituir mysql\_result}{lstlisting.2.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.1}Função para substituir mysql\_result.}{7}{lstlisting.2.1}\protected@file@percent }
-\newlabel{lst:2}{{2.2}{7}{Função para substituir mysql\_field\_name}{lstlisting.2.2}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.2}Função para substituir mysql\_field\_name.}{7}{lstlisting.2.2}\protected@file@percent }
-\newlabel{lst:3}{{2.3}{7}{Improvement da função nka\_mysql\_result}{lstlisting.2.3}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.3}Improvement da função nka\_mysql\_result.}{7}{lstlisting.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Desenvolvimento da aplicação}{9}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Identificação das lacunas/melhorias a realizar}{6}{subsection.2.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Requisitos}{6}{subsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Alterações no desenvolvimento da solução}{6}{subsection.2.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\textit  {mysql\_select\_db vs mysqli\_select\_db}}{7}{subsection.2.2.3}\protected@file@percent }
+\newlabel{lst:6}{{2.1}{7}{Função mysql\_select\_db}{lstlisting.2.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.1}Função mysql\_select\_db.}{7}{lstlisting.2.1}\protected@file@percent }
+\newlabel{lst:7}{{2.2}{7}{Função mysqli\_select\_db}{lstlisting.2.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.2}Função mysqli\_select\_db.}{7}{lstlisting.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\textit  {mysql\_result vs nka\_mysqli\_result}}{7}{lstnumber.2.2.2}\protected@file@percent }
+\newlabel{lst:4}{{2.3}{7}{Função mysql\_result}{lstlisting.2.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.3}Função mysql\_result.}{7}{lstlisting.2.3}\protected@file@percent }
+\newlabel{lst:1}{{2.4}{8}{Função para substituir mysql\_result}{lstlisting.2.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.4}Função para substituir mysql\_result.}{8}{lstlisting.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\textit  {mysql\_field\_name vs mysqli\_field\_name}}{8}{lstnumber.2.4.7}\protected@file@percent }
+\newlabel{lst:5}{{2.5}{8}{Função mysql\_field\_name}{lstlisting.2.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.5}Função mysql\_field\_name.}{8}{lstlisting.2.5}\protected@file@percent }
+\newlabel{lst:2}{{2.6}{8}{Função para substituir mysql\_field\_name}{lstlisting.2.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.6}Função para substituir mysql\_field\_name.}{8}{lstlisting.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\textit  {Improvement} da função \textit  {nka\_mysqli\_result}}{9}{lstnumber.2.6.6}\protected@file@percent }
+\newlabel{lst:3}{{2.7}{9}{Improvement da função nka\_mysql\_result}{lstlisting.2.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2.7}Improvement da função nka\_mysql\_result.}{9}{lstlisting.2.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Desenvolvimento da aplicação}{11}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Análise e Especificações}{9}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Requisitos Funcionais}{9}{subsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Análise e Especificações}{11}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Requisitos Funcionais}{11}{subsection.3.1.1}\protected@file@percent }
 \gdef \LT@i {\LT@entry 
     {1}{40.8584pt}\LT@entry 
     {1}{137.53749pt}\LT@entry 
@@ -72,24 +86,29 @@
     {1}{274.97885pt}\LT@entry 
     {1}{97.24036pt}\LT@entry 
     {1}{74.60698pt}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos funcionais\relax }}{10}{table.3.1}\protected@file@percent }
-\newlabel{tab:1}{{3.1}{10}{Requisitos Funcionais}{table.3.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Requisitos Não Funcionais}{10}{subsection.3.1.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Requisitos não funcionais\relax }}{10}{table.3.2}\protected@file@percent }
-\newlabel{tab:2}{{3.2}{10}{Requisitos Não Funcionais}{table.3.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Arquitetura técnica}{10}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Diagrama de Atividades}{10}{subsection.3.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de Atividades\relax }}{11}{figure.3.1}\protected@file@percent }
-\newlabel{fig:act}{{3.1}{11}{Diagrama de Atividades\relax }{figure.3.1}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Análise dos Resultados}{13}{chapter.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Requisitos funcionais\relax }}{12}{table.3.1}\protected@file@percent }
+\newlabel{tab:1}{{3.1}{12}{Requisitos Funcionais}{table.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Requisitos Não Funcionais}{12}{subsection.3.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Requisitos não funcionais\relax }}{12}{table.3.2}\protected@file@percent }
+\newlabel{tab:2}{{3.2}{12}{Requisitos Não Funcionais}{table.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Arquitetura técnica}{12}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Diagrama de Atividades}{13}{subsection.3.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de Atividades\relax }}{13}{figure.3.1}\protected@file@percent }
+\newlabel{fig:act}{{3.1}{13}{Diagrama de Atividades\relax }{figure.3.1}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Análise dos Resultados}{15}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Sub-capitulo 1}{13}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Sub-capitulo 2}{13}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Sub-capitulo 1}{15}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Sub-capitulo 2}{15}{section.4.2}\protected@file@percent }
 \bibdata{biblio}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Conclusão Final}{15}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Conclusão Final}{17}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Sub-capitulo 1}{15}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Sub-capitulo 2}{15}{section.5.2}\protected@file@percent }
-\gdef \@abspage@last{37}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Sub-capitulo 1}{17}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Sub-capitulo 2}{17}{section.5.2}\protected@file@percent }
+\bibcite{xampp}{{1}{2018}{{Friends}}{{}}}
+\bibcite{laragon}{{2}{2015}{{Keycdn}}{{}}}
+\bibcite{vscode}{{3}{2021}{{Microsoft}}{{}}}
+\bibcite{nka}{{4}{2021}{{NKA}}{{}}}
+\bibcite{xdebug}{{5}{2020}{{Rethans}}{{}}}
+\gdef \@abspage@last{39}

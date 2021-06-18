@@ -6,6 +6,10 @@ Algumas dúvidas:
      - Unico requisito nao funcional será manter a compatibilidade e operabilidade da aplicaçao nas novas tecnologias
      - requisito: fazer migraçao de modo a que os requisitos iniciais do produto se mantenham. (??)
 
+  > Fazer listagem código, especificar cada método antigo vs metodo novo, parametros que recebe e return
+  > Explicar improvement na nka_mysqli_result
+  > Explicar compatibilidade de PHP 5.6 -> versoes mais recentes.. Documentação um pouco vaga por ser tecnologia recente !!
+
  - Ponto 3
     > Análise e especificação do sistema - Capitulo Email Prof!!
     > Requisitos não funcionais:
@@ -25,3 +29,16 @@ Algumas dúvidas:
   - Ponto 4
     > Parecer do supervisor - Anexo ou um paragrafo citado por parte do orientador da empresa ???
     > Apresentação da solução desenvolvida (?) gravar um video do modulo desenvolvido a funcionar (?) sendo que ainda está por terminar.
+    Documentação um pouco vaga por ser tecnologia recente !!
+
+  - Ponto 5
+    > Documentação um pouco vaga por ser tecnologia recente !!
+
+
+    > AMANHA !!!
+
+    > Manhã
+      > Terminar chapter 3
+      > Enviar mail ao prof a ver se vai dar
+      > Fazer introdução, estrutura do documento , analise resultados e conclusao.
+      > Encontrar um esquema BD -> PHP (backend) queries -> JavaScript ajax -> front end -> jQuery e isso

@@ -6,13 +6,12 @@ Este capítulo apresenta o trabalho desenvolvido numa segunda parte do estágio,
 \section{Análise e Especificações}
 
 Na identificação de requisitos são enunciadas todas as funcionalidades, de forma enumerada, que se pretendem implementar no \textit{software}.
-Os diferentes requisitos, funcionais e não funcionais, encontram-se classificados pela metodologia \textit{\acrshort{moscow}} que identifica os requisitos de elevada prioridade até aos menos prioritários.
+Os diferentes requisitos, funcionais e não funcionais, encontram-se classificados pela metodologia \textit{\gls{moscoww}} que identifica os requisitos de elevada prioridade até aos menos prioritários.
 
 Cada tipo de requisito classificado (\textit{\textbf{M}ust}, \textit{\textbf{S}hould}, \textit{\textbf{C}ould}, e \textit{\textbf{W}ould}) representam diferentes significados face ao foco e importância que deverá ser levada em conta durante o processo de desenvolvimento.
 
 Assim sendo:
 
-\gls{moscoww}
 
 \begin{enumerate}
   \item \textbf{\textit{Must}}: classificados como requisitos mais críticos ou indispensáveis para o produto, pretende-se o total foco sobre este tipo de requisitos durante o processo de desenvolvimento;
@@ -69,9 +68,11 @@ RNF03 & \vtop{\hbox{\strut Apenas utilizadores autenticados e com permissão}\hb
 
 \section{Arquitetura técnica}
 
+As tecnologias e linguagens utilizadas para o desenvolvimento deste módulo a adicionar ao produto NkaAcademies foram essencialmente descritas no Capítulo~\ref{tecnologias}, com adição de JavaScript e \gls{bootstrap} para desenvolver a componente web da aplicação.
+
 \subsection{Diagrama de Atividades}
 
-Para descrever o processo de negócio foi utilizado diagramas de atividade,uma vez que permitem modelar o comportamento do sistema incluindo a sequência e as condições de execução de ações.
+Para descrever o processo de negócio foi utilizado o diagrama de atividade,uma vez que permite modelar o comportamento do sistema incluindo a sequência e as condições de execução de ações.
 
 A Figura~\ref{fig:act} demonstra o diagrama de atividades desenvolvido para o sistema.
 
@@ -80,3 +81,7 @@ A Figura~\ref{fig:act} demonstra o diagrama de atividades desenvolvido para o si
         \captionof{figure}{Diagrama de Atividades}
         \label{fig:act}
 \end{center}
+
+Recorrendo à visualização do diagrama da Figura~\ref{fig:act}, é possível perceber os diferentes passos que correspondem à atividade geral do desenvolvimento desta fase do projeto, o preenchimento de documentos de apoio aos processos de gestão de formação. As atividades foram então: filtrar a procura a um resultado, escolher um \textit{template} / declaração predefinido, proceder ao seu preenchimento manual/automático e posteriormente à sua impressão caso seja pretendido.
+
+No desenho deste diagrama está subentendido que o cliente está devidamente autenticado e verificadas as suas permissões no acesso a este tipo de ferramenta dentro da aplicação.

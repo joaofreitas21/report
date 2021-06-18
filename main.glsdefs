@@ -148,6 +148,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{bootstrap}{}%
+{%
+\gls@defglossaryentry{bootstrap}%
+{%
+name={Bootstrap},%
+sort={Bootstrap},%
+type={main},%
+first={Bootstrap},%
+firstplural={Bootstraps},%
+text={Bootstrap},%
+plural={Bootstraps},%
+description={\textit {Framework} web para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript},%
+descriptionplural={\textit {Framework} web para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{stemmer}{}%
 {%
 \gls@defglossaryentry{stemmer}%

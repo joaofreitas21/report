@@ -12,7 +12,7 @@
 2. Processo de reengenharia
     > Sistemas AS-IS
 - Descrição da arquitetura/tecnologias utilizadas -----FEITO
-- Identificação das lacunas/melhorias a realizar
+- Identificação das lacunas/melhorias a realizar -- FEITO
     > Sistema TO-BE
 - Requisitos funcionais: seleção das funcionalidades a desenvolver (completa)
  (pode utilizar LNE, Casos de Uso) -----FEITO

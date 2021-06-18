@@ -8,20 +8,23 @@
 \contentsline {section}{\numberline {2.1}Sistemas AS-IS}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Descrição da Arquitetura/tecnologias utilizadas}{5}{subsection.2.1.1}%
 \contentsline {subsubsection}{Tecnologias e Plataformas}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Identificação das lacunas/melhorias a realizar}{6}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Sistemas TO-BE}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Requisitos Funcionais}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Requisitos técnicos e restrições ao desenvolvimento}{6}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Figuras}{6}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Desenvolvimento da aplicação}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Análise e Especificações}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Requisitos Funcionais}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Requisitos Não Funcionais}{10}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Arquitetura técnica}{10}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Diagrama de Atividades}{10}{subsection.3.2.1}%
-\contentsline {chapter}{\numberline {4}Análise dos Resultados}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sub-capitulo 1}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sub-capitulo 2}{13}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusão Final}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Sub-capitulo 1}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Sub-capitulo 2}{15}{section.5.2}%
+\contentsline {subsection}{\numberline {2.2.1}Identificação das lacunas/melhorias a realizar}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Requisitos}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Alterações no desenvolvimento da solução}{6}{subsection.2.2.3}%
+\contentsline {subsubsection}{\textit {mysql\_select\_db vs mysqli\_select\_db}}{7}{subsection.2.2.3}%
+\contentsline {subsubsection}{\textit {mysql\_result vs nka\_mysqli\_result}}{7}{lstnumber.2.2.2}%
+\contentsline {subsubsection}{\textit {mysql\_field\_name vs mysqli\_field\_name}}{8}{lstnumber.2.4.7}%
+\contentsline {subsubsection}{\textit {Improvement} da função \textit {nka\_mysqli\_result}}{9}{lstnumber.2.6.6}%
+\contentsline {chapter}{\numberline {3}Desenvolvimento da aplicação}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Análise e Especificações}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Requisitos Funcionais}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Requisitos Não Funcionais}{12}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Arquitetura técnica}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Diagrama de Atividades}{13}{subsection.3.2.1}%
+\contentsline {chapter}{\numberline {4}Análise dos Resultados}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sub-capitulo 1}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sub-capitulo 2}{15}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusão Final}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Sub-capitulo 1}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Sub-capitulo 2}{17}{section.5.2}%
