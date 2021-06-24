@@ -7,49 +7,50 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in xampp
 Warning--missing publisher in laragon
 Warning--missing publisher in vscode
+Warning--missing publisher in nka1
 Warning--missing publisher in nka
 Warning--missing publisher in xdebug
 Warning--missing publisher in summernote
 Warning--missing publisher in jquery
-You've used 7 entries,
+You've used 9 entries,
             3147 wiz_defined-function locations,
-            636 strings with 4824 characters,
-and the built_in function-call counts, 2882 in all, are:
-= -- 217
-> -- 77
-< -- 7
-+ -- 28
-- -- 21
-* -- 156
-:= -- 498
-add.period$ -- 28
-call.type$ -- 7
-change.case$ -- 42
-chr.to.int$ -- 7
-cite$ -- 14
-duplicate$ -- 231
-empty$ -- 253
-format.name$ -- 28
-if$ -- 561
-int.to.chr$ -- 1
+            646 strings with 4978 characters,
+and the built_in function-call counts, 3833 in all, are:
+= -- 293
+> -- 102
+< -- 12
++ -- 37
+- -- 27
+* -- 208
+:= -- 648
+add.period$ -- 36
+call.type$ -- 9
+change.case$ -- 56
+chr.to.int$ -- 17
+cite$ -- 17
+duplicate$ -- 309
+empty$ -- 334
+format.name$ -- 36
+if$ -- 759
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 49
-newline$ -- 44
-num.names$ -- 28
-pop$ -- 112
+missing$ -- 66
+newline$ -- 54
+num.names$ -- 36
+pop$ -- 149
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 45
 quote$ -- 0
-skip$ -- 120
+skip$ -- 156
 stack$ -- 0
-substring$ -- 77
-swap$ -- 77
+substring$ -- 105
+swap$ -- 110
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 7
-while$ -- 21
+type$ -- 54
+warning$ -- 8
+while$ -- 28
 width$ -- 0
-write$ -- 92
-(There were 7 warnings)
+write$ -- 118
+(There were 8 warnings)

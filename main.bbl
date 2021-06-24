@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -22,8 +22,13 @@ Microsoft. 2021.
 \newblock \emph{Vscode faq}.
 \newblock \urlprefix\url{https://code.visualstudio.com/docs/supporting/FAQ}.
 
-\bibitem[{NKA(2021)}]{nka}
-NKA. 2021.
+\bibitem[{NKA(2021{\natexlab{a}})}]{nka1}
+NKA. 2021{\natexlab{a}}.
+\newblock \emph{O que é a nkaacademies?}
+\newblock \urlprefix\url{https://www.nkaacademies.pt/pt/#what-we-do}.
+
+\bibitem[{NKA(2021{\natexlab{b}})}]{nka}
+NKA. 2021{\natexlab{b}}.
 \newblock \emph{Quem somos}.
 \newblock \urlprefix\url{https://nka.pt/pt-pt/content/quem-somos}.
 
@@ -31,6 +36,11 @@ NKA. 2021.
 Rethans, Derick. 2020.
 \newblock \emph{Xdebug - debugger and profiler tool for php}.
 \newblock \urlprefix\url{https://xdebug.org/}.
+
+\bibitem[{Somerville(2011)}]{somerville}
+Somerville, I. 2011.
+\newblock \emph{Software engineering} v. 264--274.
+\newblock Addison-Wesley 9th edn.
 
 \bibitem[{SummernoteTeam(2020)}]{summernote}
 SummernoteTeam. 2020.

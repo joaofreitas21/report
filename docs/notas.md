@@ -44,3 +44,103 @@ Algumas dúvidas:
       > Encontrar um esquema BD -> PHP (backend) queries -> JavaScript ajax -> front end -> jQuery e isso
 
       > quanto a migraçao é complicado mostrar a soluçao desenvolvida.. O produto está a ser migrado aos poucos para evitar grandes conflitos com o bom funcionamento da solução online. ..
+
+
+  -----------
+
+- Alguns pontos a rever:
+  > Texto introdutorio capitulo 2.1
+
+> definiçao de Reengenharia - schoolar.google.com
+> texto introdutorio 2.1
+> corrigir resumo - palavreado mais formal !! e inserir um paragrafo da conclusao
+
+> bibliografia
+Somerville, I. (2011). Software Engineering, 9th Edition, Addison-Wesley
+
+
+requisitos - > listagem de algumas funcionalidades
+
+Mudar titulo capituo 3
+
+2.4 -Z falar da aboradgem feita
+2.2 identificaçao das
+2.1 tirar Arquitetura
+
+reengenharia de soluçoes existentes
+desenvolvimento do novo modulo
+
+quantificar a
+
+dar ideia da diemnsao da app
+
+
+> resumo  
+  > Alterar primeiro paragrafo -- feito
+  > acrescentar um paragrafo conclusivo -- feito
+
+> Estrutura do relatorio - verificar --feito
+
+> Procesos de reengenharia - adicionar definiçao // Texto
+> 2.1 trocar titulo e adicionar Texto --feito
+> 2.2 trocar titulo --- feito
+
+
+> 2.3 modificar totalmente --feito
+> Listagem de funcionalidades da app -- feito
+> 2.4 alterar a nivel de alteraçoes por subcapitulos -- feito
+
+
+>3. trocar titulo -- feito
+> 4 - adicionar textinho --feito
+> 4.1 - adicionar textinho -- feito
+> 4.1.1 e 4.1.2 trocar titulos --feito
+
+>apresentaçao dos modulos, e dizer que todos eles foram alvo de alteraçao technologica
+
+
+
+> Listagem das Funcionalidades
+
+    > escrever um pouco sobre o produto.. os modulos que o formam, e algumas funcionalidades
+    https://www.nkaacademies.pt/pt/#what-we-do
+    https://eden.dei.uc.pt/gestao/forum/temas/classicos/reengenharia.html#2
+
+    > passar texto da Listagem para cima ..
+    > escrever reengenharia 274,
+
+    >  The functionality of the software is not changed and,
+normally, you should try to avoid making major changes to the system architecture.
+    > Software reengineering is concerned with restructuring and redocumenting software to make it easier to understand and change.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - saa
