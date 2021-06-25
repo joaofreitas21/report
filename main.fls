@@ -959,6 +959,7 @@ INPUT ./main.gls
 INPUT main.gls
 INPUT ./main.gls
 INPUT main.gls
+INPUT e:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbi1200.tfm
 INPUT ./main.gls
 INPUT main.gls
 INPUT ./chap1.tex
@@ -1000,7 +1001,6 @@ INPUT ./images/professor.png
 INPUT images/professor.png
 INPUT ./images/professor.png
 INPUT ./images/professor.png
-INPUT e:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbi1200.tfm
 INPUT e:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT e:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT e:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty

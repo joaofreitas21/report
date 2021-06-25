@@ -6,7 +6,7 @@ A área da reengenharia de software está ligada à restruturação e redocument
 
 A funcionalidade do software não é alterada, e normalmente, não devem ser feitas grandes alterações a nível da arquitetura do sistema \citep{somerville}.
 
-Neste capítulo estão descritas as principais tecnologias e plataformas utilizadas no desenvolvimento quer da primeira e segunda parte do estágio. São ainda enunciadas algumas funcionalidades e capacidades do produto NkaAcademies que vai ser alvo de alteração tecnológica. Por fim, são descritas sucintamente as melhorias a realizar no produto e são demonstrados alguns exemplos das alterações realizadas, tais como um "frente a frente"  de algumas funções suportadas nas diferentes versões do \acrshort{php} e um \textit{improvement} de funções.
+Neste capítulo estão descritas as principais tecnologias e plataformas utilizadas no desenvolvimento quer da primeira quer da segunda parte do estágio. São ainda enunciadas algumas funcionalidades e capacidades do produto NkaAcademies que vai ser alvo de alteração tecnológica. Por fim, são descritas sucintamente as melhorias a realizar no produto e são demonstrados alguns exemplos das alterações realizadas, tais como um "frente a frente"   de algumas funções suportadas nas diferentes versões do \acrshort{php} e um \textit{improvement} de funções.
 
 %-- Texto
 % tecnologias utilizadas, melhorias a realizar, funcionalidades e capacidades do produto, alteraçoes feitas com exemplos
@@ -27,7 +27,7 @@ O \acrshort{xampp} é formado por um pacote que inclui, base de dados MySQL, ser
 
 \textbf{Visual Studio Code}
 
-O VsCode é um editor de código-fonte simplificado com suporte para operações de desenvolvimento como \textit{debugging}, execução de tarefas e controlo de versões \citep{vscode}.\newline % vs code FAQ - https://code.visualstudio.com/docs/supporting/FAQ
+O VsCode é um editor de código-fonte simplificado com suporte para operações de desenvolvimento como \textit{debugging}, execução de tarefas e controlo de versões \citep{vscode}.\newpage % vs code FAQ - https://code.visualstudio.com/docs/supporting/FAQ
 
 \quad \textbf{Xdebug}
 
@@ -59,7 +59,7 @@ Na \textbf{gestão da formação} (Figura ~\ref{fig:funcproduto}), algumas funci
 
 \begin{center}
         \includegraphics[width=\textwidth,height=0.5\textheight,keepaspectratio]{images/funcionalidades.png}
-        \captionof{figure}{Gestão da Formação}
+        \captionof{figure}{Gestão da formação}
         \label{fig:funcproduto}
 \end{center}
 
@@ -76,7 +76,7 @@ O produto é ainda composto por uma plataforma para os seus \textbf{formadores} 
 
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/professor.png}
-        \captionof{figure}{Painel Formador/Professor}
+        \captionof{figure}{Painel formador/professor}
         \label{fig:professor}
 \end{center}
 
@@ -95,11 +95,11 @@ A plataforma disponibiliza também para os seus \textbf{alunos} e formandos um l
 
 Atualmente, no mundo em que vivemos, \textit{updates} tecnológicos são lançados praticamente todos os dias relativos a sistemas de informação. É do maior interesse da parte de uma empresa, manter o seu produto atual e competitivo.
 
-De momento, o produto NkaAcademies encontra-se desatualizado, utilizando versões antigas de \acrshort{php}(5.6) e MySQL. Foi então proposto desenvolver a migração de todo o produto NkaAcademies para as versões mais recentes, suportadas no \textit{host} utilizado pela empresa, do \acrshort{php}(5.6 -> 8.0.2) e do MySQL com o objetivo de atualizar o produto e também, em casos futuros o uso de novas funcionalidades que surgiram apenas em versões superiores à que o produto estava desenvolvido.
+De momento, o produto NkaAcademies encontra-se desatualizado, utilizando versões antigas de \acrshort{php}(5.6) e MySQL. Foi então proposto desenvolver a migração de todo o produto NkaAcademies para as versões mais recentes do \acrshort{php}(5.6 -> 8.0.2) e do MySQL com o objetivo de atualizar o produto e também, de desenvolver novas funcionalidades que surgiram apenas em versões superiores à que o produto estava desenvolvido.
 
-As melhorias a realizar passaram maioritariamente pela substituição total da biblioteca \acrshort{php} MySQL para MySQLi, uma vez que grande parte das funções que fazem parte da biblioteca MySQL foram descontinuadas / \textit{deprecated}, enquanto noutros casos apenas foram feitas alterações ao nível da chamada da função ou dos parâmetros (e ordem) recebidos. Posto isto, procedeu-se à sua alteração total no produto NkaAcademies, sendo que no caso de funções \textit{deprecated} foram implementadas alternativas \textit{hard-code} em \acrshort{php}.
+As melhorias a realizar passaram maioritariamente pela substituição total da biblioteca \acrshort{php} MySQL para MySQLi, uma vez que grande parte das funções que fazem parte da biblioteca MySQL foram descontinuadas, enquanto noutros casos apenas foram feitas alterações ao nível da chamada da função ou dos parâmetros (e ordem) recebidos. Posto isto, procedeu-se à sua alteração total no produto NkaAcademies, sendo que no caso de funções \textit{deprecated} foram implementadas alternativas \textit{hard-code} em \acrshort{php}.
 
-Uma vez que se trata de uma migração completa de um produto pré-existente o objetivo principal definido para o cumprimento desta fase tem a ver com a compatibilidade das alterações feitas. As novas funções e todas as modificações realizadas ao nível do produto devem ser implementadas tendo em vista a sua compatibilidade com as versões anteriores, que neste caso são as versões \acrshort{php} 5.6 e 7 e a compatibilidade com outras funcionalidades já existentes no produto garantindo a operabilidade e o bom funcionamento da aplicação na nova versão tecnológica.
+Uma vez que se trata de uma migração completa de um produto pré-existente, o objetivo principal definido para o cumprimento desta fase tem a ver com a compatibilidade das alterações feitas. As novas funções e todas as modificações realizadas ao nível do produto devem ser implementadas tendo em vista a sua compatibilidade com as versões anteriores, que neste caso são as versões \acrshort{php} 5.6 e 7 e a compatibilidade com outras funcionalidades já existentes no produto garantindo a operabilidade e o bom funcionamento da aplicação na nova versão tecnológica.
 %%--
 
 \section{Alterações no desenvolvimento da solução}
@@ -170,7 +170,7 @@ A função da Listagem~\ref{lst:4} recebe como argumentos:
 \end{itemize}
 
 
-A função \textit{nka\_mysqli\_result} (listagem~\ref{lst:1}), utilizada para substituir a função \textit{deprecated mysql\_result} foi implementada recebendo os mesmos argumentos que a anterior, e retornando uma \textit{string}.
+A função \textit{nka\_mysqli\_result} (listagem~\ref{lst:1}), utilizada para substituir a função \textit{deprecated mysql\_result} foi implementada recebendo os mesmos argumentos que a anterior, e retornando uma \textit{string}.\newpage
 
 \begin{lstlisting}[language={php},
                    caption={Função para substituir mysql\_result.},
@@ -234,15 +234,15 @@ A função da Listagem~\ref{lst:2} recebe como parâmetros:
 
 %--
 
-\subsection{\textit{Improvement} da função \textit{nka\_mysqli\_result}}
+\subsection{Melhoria da função \textit{nka\_mysqli\_result}}
 
-Neste caso está demonstrado um exemplo \textit{improvement} de uma função que já tinha sido desenvolvida para substituir uma função descontinuada da biblioteca MySQL.
+Neste caso está demonstrado um exemplo de uma melhoria de uma função que já tinha sido desenvolvida para substituir uma função descontinuada da biblioteca MySQL.
 
 A função \textit{nka\_mysqli\_result\_v2} (listagem~\ref{lst:3}), foi um \textit{improvement} da função previamente implementada \textit{nka\_mysqli\_result}. Esta alteração deveu-se ao facto de alguns erros na incompatibilidade das diferentes versões(7 e 8) do \acrshort{php} em que o \textit{\$datarow} chegava \textit{empty}, enquanto que na versão \acrshort{php}5.6 a mesma função não apresentava erro. Verificou-se que a mesma função se comportava de forma diferente de versão para versão e como tal, procedeu-se à sua remodelação passando agora a retornar \textit{string} ou \textit{null} resolvendo o problema.
 
 
 \begin{lstlisting}[language={php},
-                   caption={Improvement da função nka\_mysql\_result.},
+                   caption={Melhoria da função nka\_mysql\_result.},
                    label=lst:3]
       if (!function_exists('nka_mysqli_result_v2')) {
         function nka_mysqli_result_v2($res, $row, $field=0) {

@@ -238,19 +238,49 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{stemmer}{}%
+\ifglsentryexists{frontend}{}%
 {%
-\gls@defglossaryentry{stemmer}%
+\gls@defglossaryentry{frontend}%
 {%
-name={stemmer},%
-sort={stemmer},%
+name={\textit {front-end}},%
+sort={\textit {front-end}},%
 type={main},%
-first={stemmer},%
-firstplural={stemmers},%
-text={stemmer},%
-plural={stemmers},%
-description={Ferramenta capaz de reduzir uma palavra à sua raiz. Por exemplo, para a palavra ``correria'', a sua raiz seria ``corre''.},%
-descriptionplural={Ferramenta capaz de reduzir uma palavra à sua raiz. Por exemplo, para a palavra ``correria'', a sua raiz seria ``corre''.},%
+first={\protect \textit {front-end}},%
+firstplural={\protect \textit {front-end}s},%
+text={\protect \textit {front-end}},%
+plural={\protect \textit {front-end}s},%
+description={Interface de interação com o utilizador},%
+descriptionplural={Interface de interação com o utilizador},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{backend}{}%
+{%
+\gls@defglossaryentry{backend}%
+{%
+name={\textit {back-end}},%
+sort={\textit {back-end}},%
+type={main},%
+first={\protect \textit {back-end}},%
+firstplural={\protect \textit {back-end}s},%
+text={\protect \textit {back-end}},%
+plural={\protect \textit {back-end}s},%
+description={Sistema responsável pela regra de negócios, webservices e API's de uma aplicação .},%
+descriptionplural={Sistema responsável pela regra de negócios, webservices e API's de uma aplicação .},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

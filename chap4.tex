@@ -1,17 +1,15 @@
 
 \chapter{Análise dos Resultados}
 \label{analise}
-
-Neste capítulo encontra-se uma revisão geral ao que foi abordado, através de uma apresentação de resultados obtidos, uma avaliação do nível de maturidade e cumprimentos dos objetivos bem como de algumas dificuldades ultrapassadas no desenvolvimento do projeto.
+Neste capítulo encontra-se uma revisão geral ao que foi abordado, através de uma apresentação de resultados obtidos, uma avaliação do nível de maturidade e cumprimento dos objetivos, bem como algumas dificuldades ultrapassadas no desenvolvimento do projeto.
 
 \section{Apresentação da solução desenvolvida}
 \label{app}
-
 Nesta secção serão apresentadas as soluções desenvolvidas divididas em dois sub-capítulos referentes às duas partes que compuseram o estágio, o processo de reengenharia e o desenvolvimento do novo módulo.
 
 \subsection{Solução desenvolvida - Processo de reengenharia}
 
-A primeira parte do projeto de estágio prende-se no processo de reengenharia, descrito no capítulo~\ref{migracao}, que teve como principal objetivo a migração completa do produto NkaAcademies para as versões mais recentes do \acrshort{php} e MySQL.
+A primeira parte do projeto de estágio prende-se com o processo de reengenharia, descrito no capítulo~\ref{migracao}, que teve como principal objetivo a migração completa do produto NkaAcademies para as versões mais recentes do \acrshort{php} e MySQL.
 
 Este tipo de alteração torna-se um pouco complicado de demonstrar, mas a migração total da solução NkaAcademies foi realizada e está neste momento, aos poucos, a ser introduzida no servidor \textit{host} responsável pelo armazenamento do produto para não causar conflitos, uma vez que se pretende garantir o contínuo bom funcionamento da solução \textit{online}.
 
@@ -19,7 +17,7 @@ Segue na Figura~\ref{fig:exemplo} uma demonstração do painel "Gestão de Forma
 
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/Exemplo.png}
-        \captionof{figure}{Menu Gestão Formação}
+        \captionof{figure}{Menu gestão formação}
         \label{fig:exemplo}
 \end{center}
 
@@ -27,13 +25,15 @@ Segue na Figura~\ref{fig:exemplo} uma demonstração do painel "Gestão de Forma
 
 A segunda parte do projeto de estágio estava direcionada para a implementação de um módulo / funcionalidade a adicionar ao produto NkaAcademies, um sistema de apoio à gestão de processos de formação - preenchimento de dossiers pedagógicos, de forma a passar a customização e a parte de gerar estes dossiers para o lado do cliente.
 
+Alguns dados da aplicação estarão rasurados de forma a proteger os dados dos clientes.
+
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/dadoscurso.png}
         \captionof{figure}{Menu dados curso}
         \label{fig:dadoscurso}
 \end{center}
 
-Deste modo, o cliente começaria com algo como a Figura~\ref{fig:dadoscurso}, onde ao clicar no botão \textbf{Procurar} seria lançado um \textit{pop-up}, que na verdade é apenas a utilização de \textit{modals} do \gls{bootstrap} como é possível observar na Figura~\ref{fig:procurar}.
+Deste modo, o cliente começa com algo como a Figura~\ref{fig:dadoscurso}, onde ao clicar no botão \textbf{Procurar} será lançado um \textit{pop-up}, que na verdade é apenas a utilização de \textit{modals} do \textit{Bootstrap} como é possível observar na Figura~\ref{fig:procurar}.
 
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/procurar.png}
@@ -65,7 +65,7 @@ Depois de filtrados os resultados apenas a um, resta ao cliente selecionar o tip
         \label{fig:preencheauto}
 \end{center}
 
-Caso o cliente opte por fazer o preenchimento das declarações manualmente, também é possível, como observado na Figura~\ref{fig:preenchemanual} apenas precisando de alterar para a informação que pretende e "Preencher".
+Caso o cliente opte por fazer o preenchimento das declarações manualmente, também é possível, como observado na Figura~\ref{fig:preenchemanual}, apenas precisando de alterar para a informação que pretende e "Preencher".
 
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/preenchemanual.png}
@@ -83,7 +83,7 @@ Por fim, as alterações indicadas na Figura~\ref{fig:preenchemanual} são feita
 
 \section{Avaliação do nível de maturidade e cumprimento dos objetivos}
 
-Após a apresentação da solução desenvolvida (sub-capítulo~\ref{app}) foi elaborada uma análise de comparação entre o que estava inicialmente estipulado para o estágio e o que foi desenvolvido. No geral, os objetivos e requisitos definidos foram cumpridos na sua totalidade.
+Após a apresentação da solução desenvolvida (sub-capítulo~\ref{app}), foi elaborada uma análise de comparação entre o que estava inicialmente estipulado para o estágio e o que foi desenvolvido. No geral, os objetivos e requisitos definidos foram cumpridos na sua totalidade.
 
 Durante o todo o processo de estágio houve necessidade de fazer investigação sobre as principais alterações de cada versão da linguagem \acrshort{php}, bem como da forma como as tecnologias operam, uma vez que não detinha os principais conhecimentos sobre as linguagens utilizadas. Como tal, o desenvolvimento deste projeto de estágio exigiu uma elevada auto motivação para o cumprimento dos objetivos propostos.
 
@@ -91,9 +91,9 @@ Durante o todo o processo de estágio houve necessidade de fazer investigação 
 
 \section{Principais dificuldades encontradas}
 
-Durante a migração da aplicação entre as versões do \acrshort{php} 5.6 -> 8, mesmo apesar da investigação realizada a fim de perceber as principais mudanças entre versões, as funções e bibliotecas \textit{deprecated} / descontinuadas houveram bastantes problemas em conseguir uma implementação de forma a garantir a compatibilidade e operabilidade do produto nas versões mais recentes.
+Durante a migração da aplicação entre as versões do \acrshort{php} 5.6 -> 8, mesmo apesar da investigação realizada a fim de perceber as principais mudanças entre versões, as funções e bibliotecas descontinuadas, houveram bastantes problemas em conseguir uma implementação de forma a garantir a compatibilidade e operabilidade do produto nas versões mais recentes.
 
-Trata-se de uma linguagem de programação que sofreu algumas alterações desde a versão em que estava implementada no produto, e acima de tudo de uma versão recente da tecnologia que nem um ano possuí, ou seja, mesmo a nível de documentação e \textit{CHANGELOG} muito pouco evoluído.
+Trata-se de uma linguagem de programação que sofreu algumas alterações desde a versão em que estava implementada no produto e, acima de tudo, de uma versão recente da tecnologia que nem um ano possuí, ou seja, mesmo a nível de documentação e \textit{CHANGELOG} muito pouco evoluído.
 
 Outra das adversidades que pode ser considerada um entrave ao projeto inicialmente foi o facto de estar a trabalhar com tecnologias novas em termos de conhecimento próprio, como o \acrshort{php} e JavaScript tendo sido necessário proceder à sua aprendizagem.
 

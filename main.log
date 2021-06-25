@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  24 JUN 2021 03:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  25 JUN 2021 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -688,17 +688,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
@@ -731,11 +726,11 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./images/funcionalidades.png>] [8 <./images/professor.png>] [9] (e:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+ [7 <./images/funcionalidades.png>] [8 <./images/professor.png>] (e:/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (e:/texlive/2020/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2020/03/24 1.8d listings language file
-) [10] [11]) (./chap3.tex [12]
+) [9] [10] [11]) (./chap3.tex [12]
 Cap\'{\i }tulo 3.
 
 Overfull \hbox (42.62135pt too wide) in alignment at lines 29--45
@@ -757,8 +752,11 @@ Overfull \hbox (41.24666pt too wide) in alignment at lines 55--67
 Underfull \vbox (badness 10000) detected at line 67
  []
 
-[14]
-<images/ActivityDiagram1.jpg, id=514, 795.97375pt x 776.9025pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+<images/ActivityDiagram1.jpg, id=512, 795.97375pt x 776.9025pt>
 File: images/ActivityDiagram1.jpg Graphic file (type jpg)
 <use images/ActivityDiagram1.jpg>
 Package pdftex.def Info: images/ActivityDiagram1.jpg  used on input line 81.
@@ -770,7 +768,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [15 <./images/ActivityDiagram1.jpg>]
-<images/estrutura.png, id=520, 420.06938pt x 275.52937pt>
+<images/estrutura.png, id=521, 420.06938pt x 275.52937pt>
 File: images/estrutura.png Graphic file (type png)
 <use images/estrutura.png>
 Package pdftex.def Info: images/estrutura.png  used on input line 97.
@@ -798,11 +796,11 @@ Cap\'{\i }tulo 4.
 <images/Exemplo.png, id=587, 1429.59094pt x 706.13812pt>
 File: images/Exemplo.png Graphic file (type png)
 <use images/Exemplo.png>
-Package pdftex.def Info: images/Exemplo.png  used on input line 21.
+Package pdftex.def Info: images/Exemplo.png  used on input line 19.
 (pdftex.def)             Requested size: 455.23163pt x 224.85901pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 22.
+(caption)                particular \caption on input line 20.
 See the caption package documentation for explanation.
 
 
@@ -822,7 +820,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 32.
 See the caption package documentation for explanation.
 
-<images/procurar.png, id=595, 722.7pt x 463.7325pt>
+<images/procurar.png, id=594, 722.7pt x 463.7325pt>
 File: images/procurar.png Graphic file (type png)
 <use images/procurar.png>
 Package pdftex.def Info: images/procurar.png  used on input line 39.
@@ -870,7 +868,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [22 <./images/procurardados.png> <./images/dadoscursopreenchido.png>]
-<images/preenchemanual.png, id=622, 719.68875pt x 561.59813pt>
+<images/preenchemanual.png, id=620, 719.68875pt x 561.59813pt>
 File: images/preenchemanual.png Graphic file (type png)
 <use images/preenchemanual.png>
 Package pdftex.def Info: images/preenchemanual.png  used on input line 71.
@@ -882,7 +880,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [23 <./images/preencheauto.png> <./images/preenchemanual.png>]
-<images/resultpreencheman.png, id=632, 1168.365pt x 463.7325pt>
+<images/resultpreencheman.png, id=628, 1168.365pt x 463.7325pt>
 File: images/resultpreencheman.png Graphic file (type png)
 <use images/resultpreencheman.png>
 Package pdftex.def Info: images/resultpreencheman.png  used on input line 79.
@@ -910,22 +908,22 @@ Underfull \hbox (badness 1052) in paragraph at lines 26--29
 
 ) [29] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 60E5D9C10906FC0F3A0158FEF96F6165;2224.
+(rerunfilecheck)             Checksum: 9FD44173A055657112C70DD8151531D5;2229.
  ) 
 Here is how much of TeX's memory you used:
- 20101 strings out of 479916
- 328190 string characters out of 5886648
- 1029399 words of memory out of 5000000
- 36101 multiletter control sequences out of 15000+600000
+ 20131 strings out of 479916
+ 328767 string characters out of 5886648
+ 1029338 words of memory out of 5000000
+ 36131 multiletter control sequences out of 15000+600000
  550795 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,9n,99p,985b,3036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{e:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<e:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><e:/texlive/2020/texmf
 -dist/fonts/type1/public/cm-super/sfrm2074.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (49 pages, 1942343 bytes).
+Output written on main.pdf (49 pages, 1820530 bytes).
 PDF statistics:
- 776 PDF objects out of 1000 (max. 8388607)
- 671 compressed objects within 7 object streams
+ 771 PDF objects out of 1000 (max. 8388607)
+ 672 compressed objects within 7 object streams
  192 named destinations out of 1000 (max. 500000)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 

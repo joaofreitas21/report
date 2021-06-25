@@ -9,14 +9,14 @@
 \BOOKMARK [1][-]{section.2.3}{Identifica\347\343o das melhorias a realizar}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.4}{Altera\347\365es no desenvolvimento da solu\347\343o}{chapter.2}% 10
 \BOOKMARK [2][-]{subsection.2.4.1}{Compara\347\343o de fun\347\365es}{section.2.4}% 11
-\BOOKMARK [2][-]{subsection.2.4.2}{Improvement da fun\347\343o nka\137mysqli\137result}{section.2.4}% 12
+\BOOKMARK [2][-]{subsection.2.4.2}{Melhoria da fun\347\343o nka\137mysqli\137result}{section.2.4}% 12
 \BOOKMARK [0][-]{chapter.3}{Desenvolvimento do novo m\363dulo}{}% 13
-\BOOKMARK [1][-]{section.3.1}{An\341lise e Especifica\347\365es}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.1}{An\341lise e especifica\347\343o}{chapter.3}% 14
 \BOOKMARK [2][-]{subsection.3.1.1}{Requisitos Funcionais}{section.3.1}% 15
 \BOOKMARK [2][-]{subsection.3.1.2}{Requisitos N\343o Funcionais}{section.3.1}% 16
 \BOOKMARK [1][-]{section.3.2}{Arquitetura t\351cnica}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.2.1}{Diagrama de Atividades}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{Estrutura do c\363digo}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{Arquitetura da solu\347\343o}{section.3.2}% 19
 \BOOKMARK [0][-]{chapter.4}{An\341lise dos Resultados}{}% 20
 \BOOKMARK [1][-]{section.4.1}{Apresenta\347\343o da solu\347\343o desenvolvida}{chapter.4}% 21
 \BOOKMARK [2][-]{subsection.4.1.1}{Solu\347\343o desenvolvida - Processo de reengenharia}{section.4.1}% 22
@@ -25,4 +25,4 @@
 \BOOKMARK [1][-]{section.4.3}{Principais dificuldades encontradas}{chapter.4}% 25
 \BOOKMARK [0][-]{chapter.5}{Conclus\343o Final}{}% 26
 \BOOKMARK [1][-]{section.5.1}{Principais conclus\365es do est\341gio}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.2}{Pontos a melhorar/completar}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.2}{Pontos a melhorar ou completar}{chapter.5}% 28

@@ -13,16 +13,16 @@
 \contentsline {subsubsection}{\textit {mysql\_select\_db vs mysqli\_select\_db}}{9}{subsection.2.4.1}%
 \contentsline {subsubsection}{\textit {mysql\_result vs nka\_mysqli\_result}}{10}{lstnumber.2.2.2}%
 \contentsline {subsubsection}{\textit {mysql\_field\_name vs mysqli\_field\_name}}{11}{lstnumber.2.4.7}%
-\contentsline {subsection}{\numberline {2.4.2}\textit {Improvement} da função \textit {nka\_mysqli\_result}}{12}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}Melhoria da função \textit {nka\_mysqli\_result}}{12}{subsection.2.4.2}%
 \contentsline {chapter}{\numberline {3}Desenvolvimento do novo módulo}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Análise e Especificações}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Análise e especificação}{13}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Requisitos Funcionais}{13}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Requisitos Não Funcionais}{14}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Arquitetura técnica}{14}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Diagrama de Atividades}{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Estrutura do código}{16}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}Arquitetura da solução}{16}{subsection.3.2.2}%
 \contentsline {subsubsection}{Base de Dados}{16}{figure.3.2}%
-\contentsline {subsubsection}{\textit {back-end}}{17}{figure.3.2}%
+\contentsline {subsubsection}{\textit {back-end}}{16}{figure.3.2}%
 \contentsline {subsubsection}{\textit {front-end}}{17}{lstnumber.3.1.18}%
 \contentsline {chapter}{\numberline {4}Análise dos Resultados}{19}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Apresentação da solução desenvolvida}{19}{section.4.1}%
@@ -32,4 +32,4 @@
 \contentsline {section}{\numberline {4.3}Principais dificuldades encontradas}{24}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Conclusão Final}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Principais conclusões do estágio}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Pontos a melhorar/completar}{27}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Pontos a melhorar ou completar}{27}{section.5.2}%

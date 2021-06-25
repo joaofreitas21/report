@@ -3,10 +3,10 @@
 \label{desenv}
 Este capítulo apresenta o trabalho desenvolvido numa segunda parte do estágio, o desenvolvimento de um módulo a implementar no produto NkaAcademies. Foi necessário analisar requisitos, tratar da modelação do produto e da sua implementação.
 
-\section{Análise e Especificações}
+\section{Análise e especificação}
 
 Na identificação de requisitos são enunciadas todas as funcionalidades, de forma enumerada, que se pretendem implementar no \textit{software}.
-Os diferentes requisitos, funcionais e não funcionais, encontram-se classificados pela metodologia \textit{\gls{moscoww}} que identifica os requisitos de elevada prioridade até aos menos prioritários.
+Os diferentes requisitos, funcionais e não funcionais, encontram-se priorizados pela metodologia \acrshort{moscow} que identifica os requisitos de elevada prioridade até aos menos prioritários.
 
 Cada tipo de requisito classificado (\textit{\textbf{M}ust}, \textit{\textbf{S}hould}, \textit{\textbf{C}ould}, e \textit{\textbf{W}ould}) representam diferentes significados face ao foco e importância que deverá ser levada em conta durante o processo de desenvolvimento.
 
@@ -15,7 +15,7 @@ Assim sendo:
 
 \begin{enumerate}
   \item \textbf{\textit{Must}}: classificados como requisitos mais críticos ou indispensáveis para o produto, pretende-se o total foco sobre este tipo de requisitos durante o processo de desenvolvimento;
-  \item \textbf{\textit{Should}}: são tão importantes como os requisitos classificados como \textit{Must Have}, contudo não são considerados tão priorizados;
+  \item \textbf{\textit{Should}}: são tão importantes como os requisitos classificados como \textit{Must Have}, contudo não são considerados tão prioritários;
   \item \textbf{\textit{Could}}: entende-se como requisitos desejáveis, mas também não são necessários;
   \item \textbf{\textit{Would}}: estes são os requisitos menos críticos e com menor valor, podendo ser implementados ou não.
 \end{enumerate}
@@ -40,8 +40,8 @@ RF05 & Editar automaticamente  & \vtop{\hbox{\strut O sistema deverá permitir a
 RF06 & Imprimir documento & \vtop{\hbox{\strut O sistema deverá permitir ao utilizador}\hbox{\strut a impressão dos documentos editados.}} & SHOULD \\ \hline
 
 
-\caption{Requisitos funcionais}\\
-\label{tab:1}\\
+\caption{Requisitos funcionais}
+\label{tab:1}
 \end{longtable}
 
 % ------ Req nao Funcionais
@@ -62,14 +62,14 @@ RNF01 & \vtop{\hbox{\strut As novas funções deverão ser implementadas de}\hbo
 RNF02 & \vtop{\hbox{\strut O módulo deverá ser implementado em JavaScript,}\hbox{\strut PHP com acesso à base de dados MySQL}} &  Operacional  & MUST \\ \hline
 RNF03 & \vtop{\hbox{\strut Apenas utilizadores autenticados e com permissão}\hbox{\strut devem ter acesso módulo desenvolvido}} & Segurança & MUST \\ \hline
 
-\caption{Requisitos não funcionais}\\
-\label{tab:2}\\
+\caption{Requisitos não funcionais}
+\label{tab:2}
 \end{longtable}
 
 
 \section{Arquitetura técnica}
 
-As tecnologias e linguagens utilizadas para o desenvolvimento deste módulo a adicionar ao produto NkaAcademies foram essencialmente descritas no Capítulo~\ref{tecnologias}, com adição de JavaScript e \gls{bootstrap} para desenvolver a componente web da aplicação.
+As tecnologias e linguagens utilizadas para o desenvolvimento deste módulo a adicionar ao produto NkaAcademies foram essencialmente descritas no Capítulo~\ref{tecnologias}, com adição de JavaScript e \textit{Bootstrap} para desenvolver a componente web da aplicação.
 
 \subsection{Diagrama de Atividades}
 
@@ -79,17 +79,17 @@ A Figura~\ref{fig:act} demonstra o diagrama de atividades desenvolvido para o si
 
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/ActivityDiagram1.jpg}
-        \captionof{figure}{Diagrama de Atividades}
+        \captionof{figure}{Diagrama de atividades}
         \label{fig:act}
 \end{center}
 
-Recorrendo à visualização do diagrama da Figura~\ref{fig:act}, é possível perceber os diferentes passos que correspondem à atividade geral do desenvolvimento desta fase do projeto, o preenchimento de documentos de apoio aos processos de gestão de formação. As atividades foram então: filtrar a procura a um resultado, escolher um \textit{template} / declaração predefinido, proceder ao seu preenchimento manual/automático e posteriormente à sua impressão caso seja pretendido.
+Recorrendo à visualização do diagrama da Figura~\ref{fig:act}, é possível perceber os diferentes passos que correspondem à atividade geral do desenvolvimento desta fase do projeto, o preenchimento de documentos de apoio aos processos de gestão de formação. As atividades foram então: filtrar a procura a um resultado, escolher um \textit{template} de declaração predefinido, proceder ao seu preenchimento manual ou automático e posteriormente à sua impressão caso seja pretendido.
 
 No desenho deste diagrama está subentendido que o cliente está devidamente autenticado e verificadas as suas permissões no acesso a este tipo de ferramenta dentro da aplicação.
 
-\subsection{Estrutura do código}
+\subsection{Arquitetura da solução}
 % colocar imagem a apresentar a estrutura do código.
-Neste sub-capítulo será apresentada a estrutura do código desenvolvido, bem como alguns excertos de código para exemplificar as diferentes camadas existentes no projeto: base de dados, \textit{back-end} e \textit{front-end}.
+Neste sub-capítulo será apresentada a estrutura do código desenvolvido, bem como alguns excertos de código para exemplificar as diferentes camadas existentes no projeto: base de dados, \gls{backend} e \gls{frontend}.
 
 A Figura~\ref{fig:estrutura} apresenta um esquema gráfico, de forma a que se perceba melhor esta estrutura e as relações entre camadas.
 
@@ -108,13 +108,13 @@ Quanto à base de dados utilizada para o desenvolvimento do projeto, não foi fe
 
 \subsubsection{\textit{back-end}}
 
-A parte do \textit{back-end} da aplicação foi desenvolvida em \acrshort{php}. O principal objetivo do trabalho realizado no \textit{back-end} diz respeito a interações com a base de dados, ou seja, tudo que envolva \textit{queries\acrshort{sql}} e ligações a bases de dados são definidas neste sector.
+A parte do \gls{backend} da aplicação foi desenvolvida em \acrshort{php}. O principal objetivo do trabalho realizado no \gls{backend} diz respeito a interações com a base de dados, ou seja, tudo que envolva \textit{queries \acrshort{sql}} e ligações a bases de dados são definidas neste sector.
 
-Para uma melhor compreensão, será apresentada na Listagem~\ref{lst:99} um exemplo de uma interação com a base de dados onde basicamente é retornado o conteúdo do \textit{template} selecionado pelo utilizador (\textit{\$\_POST["diploma"]}). Caso se verifique que o \textit{iduser} / cliente existe e o template selecionado está definido na base de dados, é devolvido o seu conteúdo para a interface web.
+Para uma melhor compreensão, será apresentada na Listagem~\ref{lst:99} um exemplo de uma interação com a base de dados onde basicamente é retornado o conteúdo do \textit{template} selecionado pelo utilizador (\textit{\$\_POST["diploma"]}). Caso se verifique que o \textit{iduser} existe e o template selecionado está definido na base de dados, é devolvido o seu conteúdo para a interface web.
 
 
 \begin{lstlisting}[language={php},
-                   caption={Exemplo de request à base de dados},
+                   caption={Exemplo de pedido à base de dados},
                    label=lst:99]
 case 2073:
 
@@ -138,13 +138,13 @@ break;
 %-- apresentar como são feitas as interações com a base de dados
 \subsubsection{\textit{front-end}}
 
-A parte do \textit{front-end} foi desenvolvida em \acrshort{html}, recorrendo a \textit{modals} do \gls{bootstrap} para implementar a interface web e JavaScript que contém as funções que são o elo de ligação entre a interface web e o \textit{back-end}, que permite atualizar e tornar dinâmica a parte gráfica/visual do sistema.
+A parte do \textit{front-end} foi desenvolvida em \acrshort{html}, recorrendo a \textit{modals} do \textit{Bootstrap} para implementar a interface web e JavaScript que contém as funções que são o elo de ligação entre a interface web e o \textit{back-end}, que permite atualizar e tornar dinâmica a parte gráfica do sistema.
 
 A Listagem~\ref{lst:98} demonstra a implementação de uma função JavaScript que complementa a ação realizada ao \textit{back-end} na listagem~\ref{lst:99}.
 
-De salientar ainda, a importância do uso de \textit{jQuery.ajax()} que permite utilizar JavaScript para enviar \textit{asynchronous http request} e obter resposta em vários formatos, e também para atualizar partes de uma página web (que use JavaScript) sem ter que recarregar a página web completa \citep{jquery}.
+De salientar ainda a importância do uso de \textit{jQuery.ajax()} que permite utilizar JavaScript para enviar \textit{asynchronous http request} e obter resposta em vários formatos, e também para atualizar partes de uma página web (que use JavaScript) sem ter que recarregar a página web completa \citep{jquery}.
 
-Assim sendo, o \textit{jquery} neste caso é responsável por passar o parâmetro \textbf{diploma} para o \textit{back-end} de forma a ser processada a query\acrshort{sql} correspondente à declaração que o cliente selecionou.
+Assim sendo, o \textit{jquery} neste caso é responsável por passar o parâmetro \textbf{diploma} para o \textit{back-end} de forma a ser processada a query\acrshort{sql} correspondente à declaração que o cliente selecionou.\newpage
 
 
 
@@ -173,7 +173,7 @@ De salientar o uso do \textit{summernote} que é uma biblioteca do JavaScript qu
 
 \begin{center}
         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/frontend.png}
-        \captionof{figure}{Interface Web - template teste}
+        \captionof{figure}{Interface web - template teste}
         \label{fig:web}
 \end{center}
 

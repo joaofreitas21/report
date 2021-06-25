@@ -1,11 +1,8 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
-\glsgroupheading{B}\relax \glsresetentrylist %
-\glossentry{bootstrap}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{20}}}\glsgroupskip
-\glsgroupheading{M}\relax \glsresetentrylist %
-\glossentry{moscoww}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{13}}}%
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossentry{backend}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{16}}}%
+\glossentry{frontend}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{16}}}%
 \end{theglossary}\glossarypostamble
